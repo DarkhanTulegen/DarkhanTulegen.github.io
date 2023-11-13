@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html">DATO</a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li class="fh5co-active"><a href="index.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+			</nav>
+
+			<div class="fh5co-footer">
+				<ul>
+					<li><a href="https://ca.linkedin.com/in/darkhan-tulegen-49337621b"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="col col-padding animate-box" data-animate-effect="fadeInLeft">
+                    <h1>November 12, Sunday</h1>
+                    <p>
+                      Today, I'll hopefully read through the Multi-head attention implementation code. Some days ago, I watched one of the videos that explained this paper and the difference between what was used before in Natural Language processing. And, if my memory serves me right, previously, people trained model such that it would go through data sequentially, and, now, they take the dot product of word vector and some other thing to find the most relevant part of the sentence, or sth like that. I'll rewatch and read through the paper again later on.
+                    </p>
+                    <p>
+                      For now, I'm stuck with the article about the einsum function which mentioned the tensor product and Kronecker product. I had to vacillate between different resources due to my lack of math knowledge. First, I watched some videos on Hilbert Space(intuitively, as I understood, vector space is defined by its bases such that its quantity represents dimensions. And, as if we are required to have an infinite quantity of bases, there's a possibility that as a result, it might be equal to the base outside of this space where each and all finite bases lie. So, to avoid this, people defined Hilbert space as a Vector Space with the condition that an infinite base will necessarily be an element of its own Vector Space. (The "might be equal to the base" part is clumsy, I don't know how to properly express what I wanted to say)). The second was about wavelets and how they resolve frequency and time duality. An interesting intuition that I gained from that particular video was that function can be represented as a vector where its bases can be a complex function such as squares or exponentials, and so taking the dot product of two of such vector-represented functions, one can get a similarity of two of those(e.g convolution but where one vector is being shifted along the other one which is stationary). The third video is about the difference between the Tensor Product and the Kronecker product. As a prerequisite knowledge, Dual Space is a space of linear maps from vectors to scalars, and bases for this space are covectors, that is a map from a base of vector space to either number 1 or 0(1 if covector is of the same direction as a base("direction" sounds wrong but I don't know how to express this in words otherwise)). So, what I took from that video is that the tensor product uses the abstract shit with linear maps, while the latter does the same without abstract shit(I promise that I'll study that later lol.). Also, I read about the tensor network which apparently must make apparent how these letters come together in the einsum function, but from the image below, you can see that it doesn't make sense.
+                    </p>
+                    <p>
+                      I have this unpleasant feeling that I'm just wasting my time by going ahead of myself, but some part of myself tells me that knowledge about certain subjects can be acquired non-linearly as well, without following a certain, and sometimes it's faster to learn it this way. I plan to learn enough knowledge to be able to code something in PyTorch for about 2 months, then I'll go deeper by reading Optimization theory, brush up my Linear Algebra and Probability, and read some textbooks on Deep Learning and ML, and later RL. (I feel like a slacker by avoiding math with these "intuition first before rigor" excuses. Hopefully, this will not backfire)
+                    </p>
+                    <p>
+                        I also have a research paper due for Polit Sci this Tuesday. Another thing that bugs me is that I need to finish my STM32 book and go through projects to join the Software Team for the Electrical Car Club. I feel that It's high time to learn ML and join some venture, but another option for me is to concentrate on an EE degree since that's what I'm paying for, and there's a possibility for me of not continuing my education, so I need to use all of my opportunities as much as possible right now. I still have one month to finish those before the start of the Spring Semester, so I'll focus on finishing this stupid paper, and I'll see if I have enough willpower to finish that book after. 
+                    </p>
+                    <p>
+                        One thing I have been looking forward to for the past 3 years was building voice-to-text and text to another language model for my mother language(Kazakh). I had no clue how to build this but it certainly would've helped me in flunking a little bit better my Kazakh classes. Now, I have an idea of what I want to build and how. 
+                    </p>
+                    <p>
+                        Also, some days ago I coded a simple GAN implementation with normal distribution. I would like to improve on that later on and write something about it in my next blog.
+                    </p>
+                    <p>
+                        Another unrelated current of thoughts is that I noticed that when I  spend a day at home, it always goes to waste since all distractions are easily accessible. I'm trying to stay at the library more often but there's a need to carry all the food with me. And, as a weak man with little to no willpower, I usually eat everything in the first two hours. Before, I tried allocating times for lunch and dinner, but I couldn't overpower my appetite so I would go for the second round at around noon. But now, I tried to be more lenient towards myself by allocating snack time as well and preparing more food than usual, and so far it works! 
+                    </p>
+                    <p>
+                        Another unrelated thing about productivity is placing an alarm as far as possible and taking a cold shower. The first is obvious, but I'm not sure about the second. I used to take cold showers before, but for some reason, I always got a nasty rash all over my body after two weeks of doing so. But the reason I want to continue taking cold showers is that after waking up, I have that snug feeling after cuddling in my several layers of blankets, and this gets in the way for me. I reason that it feels less painful to go out into the cold when a body has prepared for it. <br>
+                    </p>
+                    <h3>
+                        Resources used today:
+                    </h3>
+                    <p>
+                        <a href="https://github.com/jankrepl/mildlyoverfitted/blob/master/mini_tutorials/embedding/src.py" target="_blank" class="highlight-url">https://github.com/jankrepl/mildlyoverfitted/blob/master/mini_tutorials/embedding/src.py</a>
+                        <br>
+                    </p>
+                    <h3>
+                        Notes:
+                    </h3>
+                    <ul>
+                        <li>There's a tool for NLP to get contextual information about a word called Spacy.</li>
+                        <li>LongTensor is Tensor but with elements of long int type.</li>
+                        <li>Embedding is an operation to map words into a feature (maybe) space. People tried using numbers before like "apple" which might be 001010, but such an approach had failed to find relationships between words. Embedding has dimensions n by m, where n is the number of embeddings and m is the size of each embedding(e.g. "apple" would be one embedding and 5 is its length). If we run through this embedding operation a tensor with dimensions 2 by 2(one word is one element of this tensor), for example, we will get a 2 by 2 by 4 matrix(where 4 represents the length of the embedding vector and 2 by 2 is each of our elements). The padding index is a parameter to define one of the vectors in Embedding as a padding element that will be used to make two sentences of varying length match, and during training, the model will be ignored or it can be used for out of vocabulary or unknown words.</li>
+                        <li>The length of the dataset is determined by the number of unique contexts you can extract using the sliding window. If the length of the text is N and the window size is W, then you can create (N - W + 1) training examples. This is because the window can slide through the text N - W + 1 times before reaching the end.</li>
+                        <li>There a two meanings for the word "logit". The first is the function, and the second one is the raw output from the last layer of the NN.</li>
+                        <li>It's quite interesting to note how y is being used below. if y = Xw^T + b, then we are just processing X to find the next word which model is supposed to predict.</li>
+                        <pre><code class="language-python">def __getitem__(self, ix):
+    X = torch.LongTensor([self.ch2ix[c] for c in self.text[ix : ix + self.window_size]])
+    y = self.ch2ix[self.text[ix + self.window_size]]
+    return X, y
+                        </code></pre>
+                        <br>
+                    </ul>
+                    <h3>
+                        Questions:
+                    </h3>
+                    <ul>
+                        <li>I have qualms about the meaning of the order between different layers(actually, the whole process of making an architecture). For instance, using certain normalization techniques as a parameter to the embedding layer or using just the embedding layer with the normalization layer afterward. I asked Chatgpt what would be consideration of choosing one over another, and it didn't give any certain answer, except the engineering way of thinking to plug and play and see what works better.</li>
+                        <li>11:45 in torch.nn.Embedding explained (+ Character-level language model)". Why are we using means there for hidden layers?</li>
+                        <li>
+                            Why did we calculate the loss function twice for each epoch? First in the training loop,
+                            <pre><code class="language-python">for X_batch, y_batch in tqdm(train_dataloader):</code></pre>
+                            , then in train_loss and val_loss variables? </li>
+                        <li>Why did he call this variable "features"? 
+                            <pre><code class="language-python">features = torch.LongTensor([[dataset.ch2ix[c] for c in previous_chars]])</code></pre>
+                        </li>
+                        <li>Why are we passing an input to softmax on the first element of the logit only? (line 99)</li>
+                        <li>why 
+                            <pre><code class="language-python">if e == 0: break</code></pre>? (line 59)</li>
+                        <br>
+                    </ul>
+                    <h3>
+                        TODO later:
+                    </h3>
+                    <ul>
+                        <li>Read the code carefully by yourself and try implementing it.</li>
+                        <li>Continue what you have started: <a href="https://www.kaggle.com/code/okaberintoro/seq2seq-attention-is-all-we-need/edit" target="_blank" class="highlight-url">https://www.kaggle.com/code/okaberintoro/seq2seq-attention-is-all-we-need/edit</a></li>
+                        <li>Delve into Adam Optimizer as well. I watched some videos about it, but I didn't quite understand what's the trick there. I remember only that it was related to moving averages and decay.</li>
+                        <li>Watch a video about LSTM after Embedding</li>
+                        <li>Factor Graphs for Tensors: <a href="https://rajatvd.github.io/Factor-Graphs/" target="_blank" class="highlight-url">https://rajatvd.github.io/Factor-Graphs/</a></li>
+                        <li>Tensor Computation: <a href="https://relate.cs.illinois.edu/course/cs598evs-f20/f/lectures/02-lecture.pdf" target="_blank" class="highlight-url">https://relate.cs.illinois.edu/course/cs598evs-f20/f/lectures/02-lecture.pdf</a></li>
+                        <li>Einsum: <a href="https://rockt.github.io/2018/04/30/einsum" target="_blank" class="highlight-url">https://rockt.github.io/2018/04/30/einsum</a></li>
+                        <br>
+                    </ul>
+                    <h3>
+                        To conclude:
+                    </h3>
+                    <p>
+                        I didn't manage to go through the code related to non-sequential nlp, but I read another code related to the Embedding layer. So, I would give my day a 7/10, because I finished early at around 6 pm.(started at 9 am)
+                    </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

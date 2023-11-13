@@ -6,6 +6,41 @@
   font-style: normal;
 }
 
+/* Edit 12 Nov */
+pre {
+  background-color: #f8f9fa;
+  padding: 1em;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  border-radius: 0.2em;
+}
+
+code {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  line-height: inherit;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.highlight-url {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+p {
+  margin-left: 40px; /* Adjust the value as needed */
+  text-indent: 30px;
+  text-align: justify;
+}
+
+li {
+  text-align: justify;
+}
+/* EndEdit 12 Nov */
+
 /* Edit 17oct */
 
 .log-entry {
@@ -45,7 +80,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   background: black;
 }
 @media screen and (max-width: 992px) {
@@ -514,6 +549,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   position: relative;
   z-index: 1;
   margin-bottom: 25px;
+  margin-top: 20px; 
 }
 .blog-entry .blog-img img {
   position: relative;
